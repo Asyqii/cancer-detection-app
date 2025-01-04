@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.history.HistoryActivity" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary700"
+        app:title="@string/history"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_close"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/data_not_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_not_found"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/history_not_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kamu_belum_mempunyai_riwayat"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_history"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="30dp"
+        tools:listitem="@layout/item_history" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

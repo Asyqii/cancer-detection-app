@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Asclepius</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Hasil Analisis</string>
+
+    <string name="image_classifier_failed">Image classifier gagal</string>
+    <string name="ic_back">ic_back</string>
+    <string name="result_img">result_img</string>
+    <string name="history">History</string>
+    <string name="title">Category : </string>
+    <string name="published_date">Tanggal disimpan</string>
+    <string name="data_not_found">Data tidak ditemukan</string>
+    <string name="kamu_belum_mempunyai_riwayat">Kamu belum mempunyai riwayat</string>
+    <string name="about_cancer">About Cancer</string>
+    <string name="description">Description</string>
+    <string name="author">Author : </string>
+    <string name="data_tidak_ditemukan">Data tidak ditemukan</string>
+</resources>
