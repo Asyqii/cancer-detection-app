@@ -1,6 +1,5 @@
 
-![Logo App Cancer Detection](https://github.com/user-attachments/assets/4c8c7dc2-56be-4d87-bb47-9ed7e859ee05)
-![Asclepius Mockups](https://github.com/user-attachments/assets/9232a58f-a2ac-4aa2-867c-fc8372820a90)
+![Asclepius Mockup](https://github.com/user-attachments/assets/f0b2f814-67e5-44af-8087-c767a66e2fd6)
 
 # Asclepius: Cancer Detection App
 
